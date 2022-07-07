@@ -18,7 +18,7 @@ Install the requirements:
 pip install -r requirements.txt
 ```
 
-Run in debug mode:
+Run the app:
 ```
 $ streamlit run app.py
 ```
