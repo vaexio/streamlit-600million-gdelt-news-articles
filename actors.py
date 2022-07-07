@@ -16,7 +16,8 @@ from wordcloud import WordCloud
 from actor_codes import actor_codes
 
 # Turn cache on
-vaex.cache.on()
+if not vaex.cache.is_on():
+    vaex.cache.on()
 
 # Load the data
 df = vaex.open('/data/gdelt/events_v2_streamlit.hdf5')

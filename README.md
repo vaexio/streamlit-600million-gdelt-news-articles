@@ -23,4 +23,9 @@ Run the app:
 $ streamlit run app.py
 ```
 
+We run our app like:
+```
+$ VAEX_CACHE="memory,disk" streamlit run app.py --server.port=8601 --server.headless=True
+```
+
 The data is publicly available on Google BigQuery and GDLET's own FTP servers.
